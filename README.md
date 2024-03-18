@@ -1,2 +1,2 @@
-# Mobile-atividades 2024
- Atividades da disciplina Mobile - ADS.     
+# Repositório Mobile-atividades 2024
+ Criação do repositório para as Atividades e exercícios da disciplina Mobile - ADS.     
