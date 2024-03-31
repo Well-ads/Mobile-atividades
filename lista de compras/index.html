@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Compras HortiFruti</h1>
+        <img src="E:\ADS 2024.1\mobile_ads\lista de compras\imagens\banca-de-vegetais-e-frutas-frescas.jpg" alt="Frutas maduras" class="frutas-img">
+        <form id="addItemForm">
+            <input type="text" id="itemInput" placeholder="Adicionar item à lista">
+            <button type="submit">Adicionar</button>
+        </form>
+        <table id="shoppingList">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th></th> <!-- Coluna extra para botão de exclusão -->
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tabela será preenchida dinamicamente com os itens inseridos -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
