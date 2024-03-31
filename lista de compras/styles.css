@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 700px;
     margin: 20px auto;
     background-color: #b9ca1f;
     padding: 20px;
@@ -59,8 +59,10 @@ table th {
     color: rgb(18, 3, 29);
 }
 
-.frutas-img {
-    max-width: 60%;
-    display: block;
-    margin: 20px auto;
+.vegetais-e-frutas-frescas-img {
+    max-width: 100%; /* Definindo o tamanho máximo da imagem como 100% para garantir que ela se ajuste ao contêiner */
+    height: auto; /* Mantenha a proporção da imagem */
+    display: block; /* Garantindo que a imagem se comporte como um bloco */
+    margin: 20px auto; /* Reduzindo a margem superior para 20px para trazer a imagem mais próxima do topo */
 }
+
